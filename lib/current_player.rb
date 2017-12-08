@@ -4,6 +4,8 @@ def turn_count(board)
     if token == "X" || token == "O"
       turns += 1
     end
+  end
+  turns
 end
 
 def current_player(board)
